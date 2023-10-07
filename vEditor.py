@@ -226,7 +226,7 @@ Absolute File Path: {self.ABSpath}"""
                 tkinter.messagebox.showinfo("vEditor", self.FileInfo)
 
     def ToolsFunc(self, option):
-        if option == "View In Bro   wser":
+        if option == "View In Browser":
             self.Tools.set("Tools")
             if self.Saved == False:
                 tkinter.messagebox.showwarning("vEditor", "Must Save File To show in Browser")

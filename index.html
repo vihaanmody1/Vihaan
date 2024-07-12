@@ -1,151 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="https://bit.ly/css-stylesheet">  
-<title>Vihaan Mody</title>
-<style>
-      body {
-        background: #63aef8;
-        background: -webkit-linear-gradient(to right, #63aef8, #63aef8);
-        background: linear-gradient(to right, #63aef8, #63aef8); 
-      }
-        .container {
-          width: 100%;
-          height: 100%;
-          padding-right: 15px;
-          padding-left: 15px;
-          margin-right: auto;
-          margin-left: auto;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vihaan's Personal Webpage</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2C2F33;
+            color: #FFFFFF;
         }
-        .image {
-          background-image: url("https://i.ibb.co/nBCLHRg/Vihaan.png");
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center; 
-          width: 200px;
-          height: 200px;
-          border-radius: 50%;
-          margin: 0 auto;
-          border: 5px solid #fdf5e6;
+
+        .header {
+            background-color: #7289DA;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        a {
-          font-size: large;
+
+        .content {
+            padding: 2em;
+            max-width: 800px;
+            margin: 0 auto;
         }
-        .w3-border {
-          border: 3px solid #fdf5e6 !important;
+
+        .section {
+            background-color: #23272A;
+            padding: 2em;
+            margin-bottom: 2em;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        .links-container {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          gap: 20px;
+
+        .section h2 {
+            color: #7289DA;
+            font-weight: 500;
+            margin-bottom: 1em;
         }
-        .links-container a {
-          width: 100%;
-          color: #63aef8 !important;
-          transition: 0.2s;
+
+        .section p {
+            line-height: 1.6;
+            margin-bottom: 1em;
         }
-        .links-container a:hover {
-          opacity: 1;
+
+        .contact a {
+            color: #7289DA;
+            text-decoration: none;
+            transition: color 0.3s ease;
         }
-        .profession {
-          margin-top: 15px !important;
+
+        .contact a:hover {
+            color: #99AAB5;
         }
-        .profession span {
-          font-size: 14px;
-        }
-        .icons {
-          display: flex;
-          justify-content: center;
-          gap: 10px;
-        }
-        .icons a {
-          text-decoration: none;
-        }
-        .icons a svg {
-          fill: #fdf5e6 !important;
-          transform: scale(1);
-        }
-        .border {
-          border: 3px ridge #fdf5e6;
-        }
-        .contact {
-          text-align: center;
-          color: #fdf5e6;
-        }
-        .contact .info {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          gap: 15px;
-        }
-        .contact .info span {
-          display: flex;
-          align-items: center;
-          gap: 15px;
-        }
-        .bio {
-          font-size: 11px;
-          text-align: center;
-        }
-        @media screen and (min-width: 768px) {
-          .link {
-            width: 100%;
-          }
-          a {
-            font-size: x-large;
-          }
-        }
-        @media screen and (min-width: 576px) {
-          .container {
-            max-width: 540px;
-          }
-          .profession span {
-            font-size: 24px;
-          }
-          .bio {
-            font-size: 15px;
-          }
-        }
-</style>
-<script src="https://bit.ly/feather-min-js"></script>
+    </style>
 </head>
 <body>
-<div class="container">
-<div class="w3-margin-top" style="text-align: center">
-<div class="image w3-round"></div>
-<p class="profession"><span class="w3-padding w3-margin" style="font-weight: bolder; color: #000000">Vihaan Mody</p>
-<p class="bio"><span class="w3-padding w3-margin" style="font-weight: bolder; color: #000000"><i>Python Programmer & Chess Player</i></span></p><br>
-</div>
-<div class="links-container">
-<a href="#" class="w3-button w3-yellow" target="_blank">My Website</a>
-<a href="https://docs.google.com/spreadsheets/d/12B9ZTRf2AKO9c9yEX3XQatVIbBxWAZqO61-mSOGsbcg/edit?usp=sharing" class="w3-button w3-yellow" target="_blank">My Applications</a>
-<a href="https://www.chess.com/member/vihaanmody1" class="w3-button w3-yellow" target="_blank">My Chess Games</a>
-</div>
-<div class="icons w3-padding">
-</a>
-<a href="https://github.com/Vihaanmody21" target="_blank">
-<i data-feather="github"></i>
-</a>
-</div><br>
-<div class="contact">
-  <p class=""><span class="w3-padding w3-margin" style="font-weight: bolder; color: #000000">CONTACT VIHAAN</span></p>
-  <div class="info">
-    <a href = "mailto: vihaanmody1@gmail.com"><span><i data-feather="mail"></i>vihaanmody1@gmail.com</span></a>
-  </div>
-</div><br>
-<div class="contact">
-  <p class=""><span class="w3-padding w3-margin" style="font-weight: bolder; color: #000000">Background</span></p>
-  <b>Vihaan, a 12-year-old prodigy, possesses an unwavering passion for Python coding. 
-        His recent discovery of prevalent cyber attacks has ignited a fervent desire within him to combat this menace.
-        This newfound interest has led Vihaan towards the realms of cybersecurity and ethical hacking.
-        His remarkable commitment led to him being awarded the prestigious title of "Student of the Month" at his school, 
-        where he imparts his programming knowledge to fellow students. 
-        Presently, he is engrossed in crafting software tools aimed at fostering positive global change. 
-        Alongside his technological pursuits, Vihaan exhibits a flair for chess, securing victory in the Upstep Academy Tournament.
-    </b>
-</div><br><br>
+    <div class="header">
+        <h1>Welcome to Vihaan's Webpage</h1>
+    </div>
+    <div class="content">
+        <div class="section">
+            <h2>About Vihaan</h2>
+            <p>Vihaan, a 12-year-old prodigy, possesses an unwavering passion for Python coding. His recent discovery of prevalent cyber attacks has ignited a fervent desire within him to combat this menace. This newfound interest has led Vihaan towards the realms of cybersecurity and ethical hacking. His remarkable commitment led to him being awarded the prestigious title of "Student of the Month" at his school, where he imparts his programming knowledge to fellow students. Presently, he is engrossed in crafting software tools aimed at fostering positive global change. Alongside his technological pursuits, Vihaan exhibits a flair for chess, securing victory in the Upstep Academy Tournament.</p>
+        </div>
+        <div class="section contact">
+            <h2>Contact Vihaan</h2>
+            <p>Email: <a href="mailto:vihaanmody1@gmail.com">vihaanmody1@gmail.com</a></p>
+            <p>Discord: <a href="https://discord.com" target="_blank">vihaanmody</a></p>
+            <p>Chess.com: <a href="https://www.chess.com/member/vihaanmody1" target="_blank">vihaanmody1</a></p>
+        </div>
+    </div>
+</body>
+</html>
